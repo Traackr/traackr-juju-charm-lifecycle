@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -u
+
+juju-log "===> hooks/config-changed"
+
+STAGE=$(config-get stage)
+juju-log "===> Config 'stage': ${STAGE}"

@@ -1,0 +1,5 @@
+options:
+   stage:
+      type: string
+      default: newborn
+      description: Lifecyle stage (newborn, toddler, infant)

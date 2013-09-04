@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -u
+
+juju-log "===> hools/stop"
+
+STAGE=$(config-get stage)
+juju-log "===> Config 'stage': ${STAGE}"
